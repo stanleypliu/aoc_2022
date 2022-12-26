@@ -4,4 +4,9 @@ defmodule Helpers do
       contents
     end
   end
+
+  def stream_and_trim_file(filename) do
+    File.stream!(filename)
+    |> Stream.map(&String.trim/1)
+  end
 end

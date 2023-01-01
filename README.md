@@ -1,6 +1,6 @@
 # Aoc2022
 
-**TODO: Add description**
+aoc 2022 in elixir
 
 ## Installation
 
